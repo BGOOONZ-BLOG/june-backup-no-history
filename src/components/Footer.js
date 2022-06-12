@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
                                     <td style={
                                         {
                                             fontFamily: 'Arial, Helvetica, sans-serif',
-                                            fontSize: '10.5pt'
+                                            fontSize: '7.5pt'
                                         }
                                     }>
                                             <table width="95%"
@@ -42,7 +42,7 @@ export default class Footer extends React.Component {
                                                 style={
                                                     {
                                                         fontFamily: 'Arial, Helvetica, sans-serif',
-                                                        fontSize: '10.5pt'
+                                                        fontSize: '7.5pt'
                                                     }
                                                 }>
                                                 <tbody>
@@ -50,7 +50,7 @@ export default class Footer extends React.Component {
                                                         <td style={
                                                             {
                                                                 fontFamily: 'Arial, Helvetica, sans-serif',
-                                                                fontSize: '10.5pt'
+                                                                fontSize: '7.5pt'
                                                             }
                                                         }
                                                             align="left">
@@ -61,7 +61,7 @@ export default class Footer extends React.Component {
                                                         <td style={
                                                             {
                                                                 fontFamily: 'Arial, Helvetica, sans-serif',
-                                                                fontSize: '10.5pt'
+                                                                fontSize: '7.5pt'
                                                             }
                                                         }
                                                             align="center">
@@ -72,7 +72,7 @@ export default class Footer extends React.Component {
                                                         <td style={
                                                             {
                                                                 fontFamily: 'Arial, Helvetica, sans-serif',
-                                                                fontSize: '10.5pt'
+                                                                fontSize: '7.5pt'
                                                             }
                                                         }
                                                             align="right">
@@ -101,7 +101,7 @@ export default class Footer extends React.Component {
                                             <input type="hidden" name="_charset_" defaultValue />
                                             <input type="hidden" name="bcd" defaultValue="÷" />
                                             <input type="text" name="query"
-                                                size={30} />
+                                                size={15} />
                                             <input type="submit" defaultValue="search" />
                                         </form>
                                     </td>
@@ -111,7 +111,7 @@ export default class Footer extends React.Component {
                                         {
                                             textAlign: 'center',
                                             fontFamily: 'Arial, Helvetica, sans-serif',
-                                            fontSize: '10.5pt',
+                                            fontSize: '7.5pt',
                                             paddingTop: '4px'
                                         }
                                     }>
@@ -123,7 +123,7 @@ export default class Footer extends React.Component {
                                         }
                                             href="https://www.freefind.com"
                                             rel="nofollow">
-                                        
+                                            search engine
                                         </a>
                                         <a style={
                                             {
@@ -136,12 +136,13 @@ export default class Footer extends React.Component {
                                             by
                                             <span style={
                                                 { color: 'transparent' }
-                                            }></span>
+                                            }>freefind</span>
                                         </a>
                                     </td>
                                 </tr>
                             </tbody>
                         </table>
+<a href = "//pdfcrowd.com/url_to_pdf/?" onclick = {`if(!this.p)href+='&url='+encodeURIComponent(location.href);this.p=1`} > Save to PDF </a>
                 </div>
                 <div className="inner">
                     <div id="search" className="inner"></div>
